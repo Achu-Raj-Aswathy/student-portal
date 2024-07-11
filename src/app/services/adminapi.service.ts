@@ -6,7 +6,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class AdminapiService {
-  server_url = "http://localhost:3000"
+  server_url = "https://student-server-nm3q.onrender.com"
 
   constructor(private http:HttpClient) { }
 
